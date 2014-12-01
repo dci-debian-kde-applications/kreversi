@@ -24,7 +24,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kreversi.git
 Package: kreversi
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: khelpcenter4
+Recommends: khelpcenter
 Description: reversi board game
  KReversi is a board game where two players place pieces on the board to flip
  the opponent's pieces.  When neither player can flip any more pieces, the
