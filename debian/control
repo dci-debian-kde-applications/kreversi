@@ -18,13 +18,13 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kreversi.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kreversi.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kreversi.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kreversi.git
 
 Package: kreversi
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: khelpcenter
+Recommends: khelpcenter4
 Description: reversi board game
  KReversi is a board game where two players place pieces on the board to flip
  the opponent's pieces.  When neither player can flip any more pieces, the
