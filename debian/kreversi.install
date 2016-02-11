@@ -1,5 +1,3 @@
-../icons/kreversi-16.xpm /usr/share/pixmaps
-../icons/kreversi.xpm /usr/share/pixmaps
 usr/games/kreversi
 usr/share/applications/kde4/kreversi.desktop
 usr/share/doc/kde/HTML/en/kreversi/*
