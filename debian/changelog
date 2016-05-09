@@ -1,10 +1,19 @@
-kreversi (4:15.12.3-1~1.gbp4ffd56) UNRELEASED; urgency=medium
+kreversi (4:15.12.3-1~2.gbp802e60) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @802e608d4284c3ecd18df1422a75505f1f331089 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @4ffd56b021e8d749c304c6e91ace28b6c9024b0a **
 
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:57:31 +0200
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:05:17 +0200
 
 kreversi (4:15.08.0-1) unstable; urgency=medium
 
