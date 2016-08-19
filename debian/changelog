@@ -1,6 +1,6 @@
-kreversi (4:16.08.0-0r1) UNRELEASED; urgency=medium
+kreversi (4:16.08.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Add missing kde-games-core-declarative dependency. (Closes: #804823)
   * Stop forcing the local installation to debian/tmp, letting the package
@@ -9,7 +9,7 @@ kreversi (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Do not install the upstream TODO as documentation, since it is of no value
     for users.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Aug 2016 07:08:57 +0200
+ -- Pino Toscano <pino@debian.org>  Fri, 19 Aug 2016 07:21:51 +0200
 
 kreversi (4:15.12.3-1) unstable; urgency=medium
 
