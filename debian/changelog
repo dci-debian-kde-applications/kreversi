@@ -2,6 +2,7 @@ kreversi (4:16.08.0-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Add missing kde-games-core-declarative dependency. (Closes: #804823)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Aug 2016 07:08:57 +0200
 
