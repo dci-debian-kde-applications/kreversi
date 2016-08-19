@@ -6,6 +6,8 @@ kreversi (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Stop forcing the local installation to debian/tmp, letting the package
     directory as install place.
     - remove kreversi.install, no more used now
+  * Do not install the upstream TODO as documentation, since it is of no value
+    for users.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Aug 2016 07:08:57 +0200
 
