@@ -12,10 +12,21 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
-               libkdegames-dev (>= 4:14.12.2),
-               pkg-kde-tools (>= 0.14)
+               extra-cmake-modules,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
+               libkf5crash-dev,
+               libkf5dbusaddons-dev,
+               libkf5declarative-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5kio-dev,
+               libkf5widgetsaddons-dev,
+               libkf5xmlgui-dev,
+               libqt5svg5-dev,
+               pkg-kde-tools (>= 0.14),
+               qtbase5-dev
 Standards-Version: 3.9.8
 Homepage: http://games.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kreversi.git
@@ -23,8 +34,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kreversi.git
 
 Package: kreversi
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
-         kde-games-core-declarative,
+Depends: qml-module-org-kde-games-core, ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
 Description: reversi board game
  KReversi is a board game where two players place pieces on the board to flip
